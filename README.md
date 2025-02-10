@@ -1,2 +1,2 @@
 # Sales_Pipeline
-Preprocess and build Pipeline for Sales Data
+In this project, I analyze sales data and build a data pipeline model. I use Python, Pandas, dbt, PostgreSQL, and Airflow
