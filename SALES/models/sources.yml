@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  # configure source name and its features
+  - name: RAW
+    database: postgres
+    schema: public
+    # you can write  tables will be used
+    tables:
+      - name: supermarket_sales
+      # in this line code ,you can specify conditions for columns in data
+        columns:
+          - name: invoice_id
+            tests:
+              - unique
+              - not_null
+

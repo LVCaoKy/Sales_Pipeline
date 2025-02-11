@@ -1,7 +1,8 @@
-SALES:
-  target: dev
+SALES: # profile name
+  target: dev # default postgres server in dbt
   outputs:
     dev:
+    # If your postgres server is localhost:3000
       type: postgres
       user: postgres
       password: ky1213141516
