@@ -3,4 +3,6 @@ In this project, I analyze sales data and build a data pipeline model. I use Pyt
 
 
 YOU MUST CONNECT TO POSTGRESQL WITH COMMAND WHEN YOU ARE IN SALES_PINELINE:
-dbt run -- profiles-dir . 
+dbt debug -- profiles-dir . 
+- When you want run models , you can run command in powershell
+dbt run --profiles_dir . --select <your name models>
