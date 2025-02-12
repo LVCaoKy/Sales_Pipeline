@@ -1,5 +1,4 @@
 SELECT DISTINCT
     branch,
-    product_line,
-    unit_price
+    product_line
 FROM {{ source('RAW', 'supermarket_sales') }}

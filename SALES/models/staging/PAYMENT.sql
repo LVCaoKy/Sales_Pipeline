@@ -1,3 +1,3 @@
 SELECT DISTINCT
-    city
+    payment
 FROM {{source('RAW','supermarket_sales')}}
