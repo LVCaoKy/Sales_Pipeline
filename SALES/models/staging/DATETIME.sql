@@ -1,5 +1,6 @@
 SELECT DISTINCT
     sale_date,
+    sale_time,
     EXTRACT(MONTH FROM sale_date) AS month,
     EXTRACT(DAY FROM sale_date) AS day,
     EXTRACT(YEAR FROM sale_date) AS year,
